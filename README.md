@@ -1,3 +1,4 @@
+
 ## Run Locally
 
 Clone the project
@@ -26,6 +27,12 @@ Import migrations to the database
 
 ```bash
   php artisan migrate
+``` 
+
+Seed Roles table data
+
+```bash
+  php artisan db:seed --class=RolesSeeder
 ``` 
 
 Start the server
